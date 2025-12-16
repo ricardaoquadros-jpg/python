@@ -1,0 +1,32 @@
+# ==============================================================================
+# DEPENDÊNCIAS DO PROJETO
+# ==============================================================================
+# 
+# O que é este arquivo?
+# O requirements.txt lista todas as bibliotecas Python que o projeto precisa.
+# 
+# Como usar?
+# Execute: pip install -r requirements.txt
+# Isso instala todas as bibliotecas listadas de uma vez.
+#
+# Por que usar?
+# - Facilita a instalação para outras pessoas
+# - Documenta as versões exatas usadas
+# - Garante reprodutibilidade
+# ==============================================================================
+
+# Pandas: Biblioteca principal para manipulação de dados
+# Usamos para ler CSV, tratar dados e calcular métricas
+pandas>=2.0.0
+
+# OpenPyXL: Biblioteca para escrever arquivos Excel (.xlsx)
+# É usada automaticamente pelo Pandas ao exportar para Excel
+openpyxl>=3.1.0
+
+# Streamlit: Framework para criar dashboards web interativos
+# Transforma scripts Python em aplicações web
+streamlit>=1.28.0
+
+# Plotly: Biblioteca para gráficos interativos
+# Usada pelo Streamlit para visualizações bonitas
+plotly>=5.18.0

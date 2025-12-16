@@ -1,0 +1,57 @@
+# ==============================================================================
+# .gitignore para projeto Python
+# ==============================================================================
+
+# Arquivos de cache do Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Ambiente virtual (se você criar um)
+venv/
+.venv/
+env/
+.env/
+ENV/
+
+# Arquivos de distribuição
+dist/
+build/
+*.egg-info/
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# IDEs e editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Arquivos temporários
+*.tmp
+*.temp
+.cache/
+
+# Arquivos de configuração local (se houver senhas/tokens)
+.env
+.env.local
+config.local.py
+secrets.py
+
+# Relatórios gerados (opcional - descomente se não quiser versionar)
+# relatorio_ti.xlsx
+
+# Streamlit
+.streamlit/secrets.toml
